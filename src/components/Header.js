@@ -19,7 +19,7 @@ function Header() {
          </div>
 
          <div className="header__center">
-         <h4>React Shopping App</h4>
+         <h4>React Shopping App </h4>
          </div>
          
           <div className="header__right">
