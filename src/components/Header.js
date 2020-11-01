@@ -5,6 +5,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import {IconButton} from '@material-ui/core';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
+
 function Header() {
     return (
         <div className="header">
@@ -23,9 +24,10 @@ function Header() {
          </div>
          
           <div className="header__right">
-           <IconButton><ShoppingCartIcon/></IconButton>
-           </div>
 
+           <ShoppingCartIcon styles={{color:"red"}} fontSize="medium"/>
+           
+           </div>
         </div>
     )
 }
