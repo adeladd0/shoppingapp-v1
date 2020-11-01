@@ -1,6 +1,9 @@
-.App {
-  background-color: black;
+.app {
+  background-image: linear-gradient(to right,#2c3e50 ,#181C25);
+ 
   text-align: center;
 }
 
-
+.app__body{
+ 
+}
