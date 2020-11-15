@@ -1,6 +1,6 @@
 .card{
     width: 400px;
-    height: 360px;
+    height: 460px;
     margin: 10px;
     border: 0px solid black;
     
@@ -15,8 +15,9 @@
 }
 .card> img{
    object-fit: cover;
+   opacity: 0.8;
    width: 400px;
-   height: 200px;
+   height: 300px;
    justify-content: center;
  
 }

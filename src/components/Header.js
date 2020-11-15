@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react'
 import "../css/Header.css";
 import { properties } from '../properties.js';
 import SearchIcon from '@material-ui/icons/Search';
-import {IconButton} from '@material-ui/core';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 
-
-function Header() {
+export default class Header extends Component {
+    render() {
     return (
         <div className="header">
 
@@ -15,7 +14,8 @@ function Header() {
           
           <div className="header__input">
           <SearchIcon/>
-          <input placeholder='Search Products'type="text"/>
+          <input placeholder='Search Products'
+          type="text"/>
           </div>
          </div>
 
@@ -24,12 +24,13 @@ function Header() {
          </div>
          
           <div className="header__right">
-
-           <ShoppingCartIcon styles={{color:"red"}} fontSize="medium"/>
+           
+           <ShoppingCartIcon styles={{color:"red"}}
+            fontSize="small"/>
            
            </div>
         </div>
     )
+    }
 }
 
-export default Header
