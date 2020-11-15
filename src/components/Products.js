@@ -6,16 +6,17 @@ export default class Products extends Component {
         return (
             <div className="products">
                 
-                 { this.props.products.map((product) =>
-                 (<Card src={product.image}
-                    title={product.title}
-                    description={product.description}
-                    price={product.price}
-                    />))
+                { this.props.products.map(
+                    (product) =>
+                        <Card  key={product._id}
+                        src={product.image}
+                        title={product.title}
+                        description={product.description}
+                        price={product.price}/> 
+                    
+                    )
                  
-                 
-                 
-                 
+                  
                  }
 
                   

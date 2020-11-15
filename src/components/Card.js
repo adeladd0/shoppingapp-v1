@@ -15,7 +15,7 @@ function Card({src,title,description,price}) {
              
               <div className="card__bottom">
               <h3>{formatCurrency(price)}</h3>
-              <ShoppingCartIcon  styles={{color:"white"}} fontSize="medium"/>
+              <ShoppingCartIcon  styles={{color:"white"}} fontSize="small"/>
              </div>
              
             </div>

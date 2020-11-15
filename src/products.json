@@ -6,6 +6,7 @@
       "title": "Beaded Bag",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to Everything Beaded, our universal brand is here for you, and comes in all our fit ranges: Everything Beaded Curve, Tall, Petite and Maternity. Created by us, styled by you.",
       "availableSizes": ["X", "L", "XL", "XXL"],
+      "availableCategory": ["BEADS","BAGS"],
       "price": 29.9
     },
     {
@@ -14,6 +15,7 @@
       "title": "Beaded Necklace",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to Everything Beaded, our universal brand is here for you, and comes in all our fit ranges: Everything Beaded Curve, Tall, Petite and Maternity. Created by us, styled by you.",
       "availableSizes": ["X", "M", "L"],
+      "availableCategory": ["BEADS","NECKLACES"],
       "price": 18.9
     },
     {
@@ -22,6 +24,7 @@
       "title": "Beaded Necklace",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to Everything Beaded, our universal brand is here for you, and comes in all our fit ranges: Everything Beaded Curve, Tall, Petite and Maternity. Created by us, styled by you.",
       "availableSizes": ["X", "M", "L"],
+      "availableCategory": ["BEADS","NECKLACES"],
       "price": 14.9
     },
     {
@@ -30,6 +33,7 @@
       "title": "Handmade Bag",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to Everything Beaded, our universal brand is here for you, and comes in all our fit ranges: Everything Beaded Curve, Tall, Petite and Maternity. Created by us, styled by you.",
       "availableSizes": ["XL"],
+      "availableCategory": ["BAGS"],
       "price": 25.9
     },
     {
@@ -38,6 +42,7 @@
       "title": "Beaded Necklace",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to Everything Beaded, our universal brand is here for you, and comes in all our fit ranges: Everything Beaded Curve, Tall, Petite and Maternity. Created by us, styled by you.",
       "availableSizes": ["X", "L", "XL"],
+      "availableCategory": ["BEADS","NECKLACES"],
       "price": 10.9
     },
     {
@@ -46,6 +51,7 @@
       "title": "Beaded Necklace",
       "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to Everything Beaded, our universal brand is here for you, and comes in all our fit ranges: Everything Beaded Curve, Tall, Petite and Maternity. Created by us, styled by you.",
       "availableSizes": ["XL", "XXL"],
+      "availableCategory": ["BEADS","NECKLACES"],
       "price": 49.9
     },
     {
@@ -54,6 +60,7 @@
         "title": "Beaded Slippers ",
         "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to Everything Beaded, our universal brand is here for you, and comes in all our fit ranges: Everything Beaded Curve, Tall, Petite and Maternity. Created by us, styled by you.",
         "availableSizes": ["XL", "XXL"],
+        "availableCategory": ["SLIPPERS"],
         "price": 49.9
       }
   ]
