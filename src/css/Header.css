@@ -47,7 +47,8 @@
 	background: linear-gradient(to right, red 0%, orange 100%);
     
     -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
 	
 }
 

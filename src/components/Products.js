@@ -8,11 +8,10 @@ export default class Products extends Component {
                 
                 { this.props.products.map(
                     (product) =>
-                        <Card  key={product._id}
-                        src={product.image}
-                        title={product.title}
-                        description={product.description}
-                        price={product.price}/> 
+                    <Card  key={product._id}
+                    product={product}
+                    addToCart={this.props.addToCart} /> 
+                
                     
                     )
                  
