@@ -1,13 +1,19 @@
 
-import React from 'react'
+import React,{Component} from 'react'
 import "../css/SideBar.css";
+import Cart from './Cart';
 
-function SideBar() {
+export default class Sidebar extends Component {
+   render(){
     return (
         <div>
-            <h4>SideBar</h4>
+            <Cart cartItems={this.props.cartItems}
+               removeFromCart={this.props.removeFromCart}    
+            />
+                
+                
         </div>
     )
 }
+}
 
-export default SideBar
